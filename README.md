@@ -15,7 +15,7 @@ All pairs consist of two different tokens LEM / WBNB pairs.
 
 The canonical WBNB address is `0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c`.
 
-## [`/summary`](https://api.lemur.finance/summary)
+## [`/summary`](https://api.lemur.finance/api/v1/summary)
 
 
 
@@ -37,7 +37,7 @@ The canonical WBNB address is `0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c`.
 }
 ```
 
-## [`/totalliquidity`](https://api.lemur.finance/totalliquidity)
+## [`/totalliquidity`](https://api.lemur.finance/api/v1/totalliquidity)
 
 Returns the total liquidity in USD value.
 Results are edge cached for 24 hours.
@@ -56,7 +56,7 @@ Results are edge cached for 24 hours.
 }
 ```
 
-## [`/assets`](https://api.lemur.finance/assets)
+## [`/assets`](https://api.lemur.finance/api/v1/assets)
 
 
 ### Request
@@ -79,7 +79,7 @@ Results are edge cached for 24 hours.
 }
 ```
 
-## [`/tickers`](https://api.lemur.finance/api/v1//tickers)
+## [`/tickers`](https://api.lemur.finance/api/v1/tickers)
 
 Results are edge cached for 1 minute.
 
@@ -106,7 +106,7 @@ Results are edge cached for 1 minute.
 }
 ```
 
-## `/trades`
+## [`/trades`](https://api.lemur.finance/api/v1/trades)
 
 Returns last 10 trades on the Pancake DEX
 
@@ -121,7 +121,7 @@ Results are edge cached for 15 minutes.
 ```
 ```
 
-## `/circulation`
+## [`/circulation`](https://api.lemur.finance/api/v1/circulation)
 
 Returns circulation supply of the token based on burned tokens.
 
