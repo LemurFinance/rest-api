@@ -7,7 +7,7 @@ The API is designed around the CoinMarketCap
 [requirements document](https://docs.google.com/document/d/1S4urpzUnO2t7DmS_1dc4EL4tgnnbTObPYXvDeBnukCg).
 
 
-The API is designed by following swapliquidity-api guide
+The API is designed by following JustLiquidity/swapliquidity-api guide
 
 # Endpoints
 
