@@ -21,7 +21,7 @@ The canonical WBNB address is `0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c`.
 
 ### Request
 
-`GET https://api.lemur.finance/summary`
+`GET https://api.lemur.finance/api/v1/summary`
 
 ### Response
 
@@ -44,7 +44,7 @@ Results are edge cached for 24 hours.
 
 ### Request
 
-`GET https://api.lemur.finance/totalliquidity`
+`GET https://api.lemur.finance/api/v1/totalliquidity`
 
 ### Response
 
@@ -61,7 +61,7 @@ Results are edge cached for 24 hours.
 
 ### Request
 
-`GET https://api.lemur.finance/assets`
+`GET https://api.lemur.finance/api/v1/assets`
 
 ### Response
 
@@ -79,13 +79,13 @@ Results are edge cached for 24 hours.
 }
 ```
 
-## [`/tickers`](https://api.lemur.finance//tickers)
+## [`/tickers`](https://api.lemur.finance/api/v1//tickers)
 
 Results are edge cached for 1 minute.
 
 ### Request
 
-`GET https://api.lemur.finance/tickers`
+`GET https://api.lemur.finance/api/v1/tickers`
 
 ### Response
 
@@ -116,7 +116,7 @@ Results are edge cached for 15 minutes.
 
 ### Request
 
-`GET https://api.lemur.finance/trades`
+`GET https://api.lemur.finance/api/v1/trades`
 
 ```
 ```
@@ -133,7 +133,7 @@ Results are edge cached for 15 minutes.
 
 ### Request
 
-`GET https://api.lemur.finance/circulation`
+`GET https://api.lemur.finance/api/v1/circulation`
 
 ```
 
