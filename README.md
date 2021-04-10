@@ -106,6 +106,20 @@ Results are edge cached for 1 minute.
 }
 ```
 
+## `/trades`
+
+Returns last 10 trades on the Pancake DEX
+
+Results are edge cached for 15 minutes.
+
+
+
+### Request
+
+`GET https://api.lemur.finance/trades`
+
+```
+```
 
 ## `/circulation`
 
